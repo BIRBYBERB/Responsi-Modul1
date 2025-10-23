@@ -11,7 +11,7 @@ Tujuan utama proyek ini adalah untuk mempermudah proses pencatatan, pemantauan, 
 
 # Struktur Data
 Contoh data sepatu tersimpan:
-'test123'
+''test123''
 
 '{
   "brand": "Air Shoes",
