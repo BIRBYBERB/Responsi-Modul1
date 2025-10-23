@@ -20,7 +20,7 @@ Contoh data sepatu tersimpan:
   "tanggal_masuk": "2025-10-08",
   "tanggal_selesai": null
 }''
-
+--
 id → Nomor unik sepatu
 brand → Brand sepatu
 nama → Nama sepatu
