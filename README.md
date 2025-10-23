@@ -11,7 +11,7 @@ Tujuan utama proyek ini adalah untuk mempermudah proses pencatatan, pemantauan, 
 
 # Struktur Data
 Contoh data sepatu tersimpan:
-{
+''{
   "brand": "Air Shoes",
   "name": "Greaves of Beowulf",
   "status": "Available",
@@ -19,7 +19,7 @@ Contoh data sepatu tersimpan:
   "supplier_id": "4805a67e-ae82-47ea-9ef9-dabb570b1c2e",
   "tanggal_masuk": "2025-10-08",
   "tanggal_selesai": null
-}
+}''
 
 id → Nomor unik sepatu
 brand → Brand sepatu
