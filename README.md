@@ -11,9 +11,8 @@ Tujuan utama proyek ini adalah untuk mempermudah proses pencatatan, pemantauan, 
 
 # Struktur Data
 Contoh data sepatu tersimpan:
-''test123''
-
-'{
+```
+{
   "brand": "Air Shoes",
   "name": "Greaves of Beowulf",
   "status": "Available",
@@ -21,7 +20,8 @@ Contoh data sepatu tersimpan:
   "supplier_id": "4805a67e-ae82-47ea-9ef9-dabb570b1c2e",
   "tanggal_masuk": "2025-10-08",
   "tanggal_selesai": null
-}''
+}
+```
 --
 id → Nomor unik sepatu
 brand → Brand sepatu
@@ -33,19 +33,21 @@ tanggalMasuk → Tanggal sepatu diterima untuk dicuci
 tanggalSelesai → Tanggal sepatu selesai dicuci
 
 Contoh data Category tersimpan
+```
 {
   "brand": "Air shoes"
 }
-
+```
 brand → Brand sepatu
 
 Contoh data Supplier tersimpan
+```
 {
   "name": "Vergil Sparda",
   "phone": "2000-DEVIL-MAY-CRY",
   "email": "GilverBlueGrave@gmail.com"
 }
-
+```
 nama → Nama orang
 phone → Nomor orang
 email → Email
@@ -60,6 +62,7 @@ email → Email
 
 POST Sepatu
 BODY:
+```
 {
   "brand": "Air Shoes",
   "name": "Greaves of Beowulf",
@@ -69,9 +72,12 @@ BODY:
   "tanggal_masuk": "2025-10-08",
   "tanggal_selesai": null
 }
-
+```
 RESPONSE:
+```
 {
     "message": "Data sepatu berhasil ditambahkan."
 }
+```
 
+https://vercel.com/frins-projects-982f41d7/responsi-modul1
